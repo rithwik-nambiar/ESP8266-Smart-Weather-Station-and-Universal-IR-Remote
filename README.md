@@ -23,8 +23,7 @@ A high-performance desktop companion built on the **ESP8266**. This project feat
 
 ## 🔧 Installation & Setup
 1.  **Hardware:** Connect components as per the code's defined GPIO pins.
-2.  **Configuration:** * Rename `config.h.example` to `config.h`.
-    * Enter your WiFi credentials and OpenWeatherMap API Key.
+2.  **credentials** Enter your WiFi credentials and OpenWeatherMap API Key.
 3.  **Calibration:** On first boot, the system triggers a touch calibration. Results are saved to `/touch.cal` in SPIFFS.
 
 ## 🔌 Hardware Connections & Pinout
