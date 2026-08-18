@@ -30,13 +30,14 @@ I used a 2N2222 NPN transistor to drive the IR LED from the 3.3V rail. This prot
 
 Display SPI pins (as wired in my build):
 
-| Component |ESP8266 Pin |
-| VCC / LED	| 3V3 |
-| CS | D8 (GPIO15) |
-| DC/RS | D3 (GPIO0) |
-| MOSI | D7 (GPIO13) |
-| SCK | D5 (GPIO14) |
-| GND | GND |
+| Component | ESP8266 Pin |
+| --------- | ----------- |
+| VCC / LED | 3V3         |
+| CS        | D8 (GPIO015) |
+| DC/RS     | D3 (GPIO00)  |
+| MOSI      | D7 (GPIO013) |
+| SCK       | D5 (GPIO014) |
+| GND       | GND         |
 
 Adjust pins in the code if your board layout differs.
 
