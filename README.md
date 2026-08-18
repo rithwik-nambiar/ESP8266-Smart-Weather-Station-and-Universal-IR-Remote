@@ -68,9 +68,6 @@ I focused on a reliable IR capture flow and a minimal, usable UI. Key lessons:
 - SPIFFS is convenient for small persistent data like calibration and learned signals.
 - Balancing UI responsiveness with timing-critical tasks is the main challenge on a single-core microcontroller.
 
-## Questions and support
-If you have questions about this repo or my approach, DM @Frog or create a ticket in Slack — #ask-the-shipwrights.
-
 ## License
 MIT
 
