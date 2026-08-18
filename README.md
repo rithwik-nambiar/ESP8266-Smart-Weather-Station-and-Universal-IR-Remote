@@ -14,7 +14,7 @@ This README is a concise, hands-on record of what I built, how I built it, and h
 | Dashboard | IR Control | On-screen Keyboard |
 | :---: | :---: | :---: |
 | ![Dashboard](images/dashboard.jpg) | ![IR Mode](images/ir_mode.jpg) | ![Keyboard](images/keyboard.jpg) |
-Real-time weather + NTP clock · IR learning and playback · On-screen keyboard for naming signals
+| Real-time weather + NTP clock | IR learning and playback | On-screen keyboard for naming signals |
 
 ## Why this approach
 IR decoding on ESP8266 is sensitive to timing jitter. The Wi‑Fi stack and other background tasks can introduce interrupts that break microsecond-level timing. To get reliable captures I disable or pause Wi‑Fi activity briefly while sampling the TSOP output and recording pulse timings. This is a deliberate tradeoff: captures need accuracy, and brief pauses (seconds or less) are acceptable for a local device.
