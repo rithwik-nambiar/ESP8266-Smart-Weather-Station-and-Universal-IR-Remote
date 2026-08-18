@@ -6,7 +6,7 @@ This README is a concise, hands-on record of what I built, how I built it, and h
 
 ## What I built
 - A 2.4" TFT display (ILI9341) touchscreen UI that shows a clock and weather data.
-- An IR learning mode that records remote signals (NEC, Samsung and similar) and saves them to SPIFFS.
+- An IR learning mode that records remote signals and saves them to SPIFFS.
 - An IR transmit mode that replays saved signals through an IR LED driven by a 2N2222 transistor.
 - A simple strategy to pause network activity during IR capture so the decoder sees stable timing.
 
