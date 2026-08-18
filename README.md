@@ -32,7 +32,7 @@ I used a 2N2222 NPN transistor to drive the IR LED from the 3.3V rail. This prot
 - IR LED cathode -> 2N2222 collector
 - 2N2222 emitter -> GND
 - 220 Ω resistor between ESP8266 GPIO and 2N2222 base (D1 / GPIO5)
-- TSOP (IR receiver) data out -> D4 (GPIO2)
+- TSOP (IR receiver) data out -> D4 (GPIO2) 
 
 Display SPI pins (as wired in my build):
 
