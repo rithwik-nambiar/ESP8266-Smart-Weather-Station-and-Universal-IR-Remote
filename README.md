@@ -29,11 +29,12 @@ I used a 2N2222 NPN transistor to drive the IR LED from the 3.3V rail. This prot
 - TSOP (IR receiver) data out -> D4 (GPIO2)
 
 Display SPI pins (as wired in my build):
-- CS: D8 (GPIO15)
-- DC/RS: D3 (GPIO0)
-- MOSI: D7 (GPIO13)
-- SCK: D5 (GPIO14)
-- VCC: 3.3V, GND: common ground
+| VCC / LED	| 3V3 |
+| CS | D8 (GPIO15) |
+| DC/RS | D3 (GPIO0) |
+| MOSI | D7 (GPIO13) |
+| SCK | D5 (GPIO14) |
+| GND | GND |
 
 Adjust pins in the code if your board layout differs.
 
